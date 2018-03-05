@@ -1,0 +1,79 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif; }
+
+.navbar {
+  border-radius: 0px;
+  background: #DCDCDC;
+  border: none;
+  margin-bottom: 0; }
+  .navbar .navbar-brand {
+    padding: 20px 30px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 2px #fff; }
+  .navbar li a {
+    color: #333;
+    padding: 20px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px #fff; }
+  .navbar li a:visited {
+    background: #EDEDED; }
+  .navbar li a:hover {
+    background: #EDEDED; }
+  .navbar li a:active {
+    background: #EDEDED; }
+  .navbar .nav .open > a, .navbar .nav .open > a:hover, .navbar .nav .open > a:focus {
+    background: #EDEDED; }
+  .navbar .dropdown-menu {
+    background: #DCDCDC; }
+  .navbar .icon-bar {
+    background: #333; }
+
+.navbar-right li a:visited {
+  background: none; }
+.navbar-right li a:hover {
+  background: none; }
+.navbar-right li a:active {
+  background: none; }
+
+.section-1 {
+  padding: 40px 20px; }
+
+.section-2 {
+  padding: 40px 20px;
+  background: #F4F4F4; }
+
+.progress {
+  margin-bottom: 0px; }
+
+.tm-bar1 {
+  background: #e44c25; }
+
+.tm-bar2 {
+  background: #016fba; }
+
+.tm-bar3 {
+  background: #d5b931; }
+
+.tm-bar4 {
+  background: #121c28; }
+
+.tm-bar5 {
+  background: #6632b1; }
+
+.tm-bar6 {
+  background: #2c93be; }
+
+.main-footer {
+  background: #333;
+  padding: 40px 20px 0px 20px; }
+
+/*# sourceMappingURL=style.css.map */
