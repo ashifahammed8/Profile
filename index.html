@@ -5,37 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Profile</title>
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="shortcut icon" href="assets/images/logo/favicon.png">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 		<!-- Navigation Menu -->
-		<nav class="navbar">
+		<nav class="navbar navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span> 
+		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">PROFILE NAME</a>
+		      <a class="navbar-brand" href="#home"><img src="assets/images/logo/logo.png" alt=""></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Home</a></li>
-		        <li><a href="#">About Me</a></li>
-		        <li class="dropdown">
-		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Education
-		        	<span class="caret"></span></a>
-		        	<ul class="dropdown-menu">
-			          <li><a href="#">Education</a></li>
-			          <li><a href="#">Certification</a></li>
-			          <li><a href="#">Others</a></li>
-			        </ul>
-		        </li> 
-		        <li><a href="#">Tech Skills</a></li>
-		        <li><a href="#">Gallery</a></li>
-		        <li><a href="#">Contact</a></li> 
+		        <li class="active"><a href="#home">Home</a></li>
+		        <li><a href="#about-me">About Me</a></li>
+		        <li><a href="#education">Education & Certification</a></li>
+		        <li><a href="#techskill">Tech Skills</a></li>
+		        <li><a href="#project">Projects</a></li>
+		        <li><a href="#contact">Contact</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#"><i class="far fa-envelope" style="color: #c84a3e;"></i> ashifahammed8@gmail.com</a></li>
@@ -45,74 +39,162 @@
 		</nav>
 		<!-- End of Navigation Menu -->
 
-		<!-- Slideshow -->
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		    <li data-target="#myCarousel" data-slide-to="1"></li>
-		    <li data-target="#myCarousel" data-slide-to="2"></li>
-		    <li data-target="#myCarousel" data-slide-to="3"></li>
-		  </ol>
+		<!-- Home Landing Page -->
+		<section class="home" id="home">
+			<div class="container">
+				<h2>Welcome to My Profile</h2>
+			</div>
+		</section>
+		<!-- End of Home Landing -->
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-		    <div class="item active">
-		      <img src="assets/images/slide/slide-01.jpg" alt="Chania">
-		    </div>
-
-		    <div class="item">
-		      <img src="assets/images/slide/slide-02.jpg" alt="Chicago">
-		    </div>
-
-		    <div class="item">
-		      <img src="assets/images/slide/slide-03.jpg" alt="New York">
-		    </div>
-
-		    <div class="item">
-		      <img src="assets/images/slide/slide-04.jpg" alt="New York">
-		    </div>
-		  </div>
-
-
-
-		  <!-- Left and right controls -->
-		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-		<!-- End of the Slideshow -->
-
-		<!-- Section One -->
-		<section class="section-1">
+		<!-- Section About-me -->
+		<section class="section-about-me" id="about-me">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h1>Something About Me</h1>
-						<p>Hello! I am Ashif Ahammed and I am a Computer Engineer.I am 25 years old and my native place in Kolkata.I have done my graduation in Computer Science and Engineering in the year 2017 with first class.I did my Intermediate in the year 2010 and I did my matric in 2008 from West Bengal Govt. Board.</p>
-						<p>Now coming to my family, I live in a joint family.There are ten members of our family. I have two brothers.My elder brother is doing his own business and my younger brother is doing a job in Bangalore.</p>
+						<p>Hello! I am Ashif Ahammed and I am a Computer Engineer.I am 25 years old and my native place is Rampurhat,West Bengal.I have done my graduation in Computer Science and Engineering in the year 2017 with first class.I did my Intermediate in the year 2010 and I did my matric in 2008 from West Bengal Govt. Board.</p>
+						<p>I've 1-year experience as a Web Developer. During this tenure, I've worked with clients of multiple small-scale organization.I've sound knowledge of HTML, HTML5, CSS, CSS3, BOOTSTRAP,Uikit2 and JAVASCRIPT have worked using these platforms.	I find it interesting working on Responsive Web Design as it deals with the interface of the modern websites.</p>
+						<p>I did some PHP Projects also such as site admin panel where admin can upload photos to gallery and delete photos from gallery. I also created Contact form for website with MYSQL Database.All the contact information store into the database and retrive on the admin page.</p>
+						<p>I also did two wordpress site,and i have quite good knowledge on wordpress.Now i am leraning React JS and Firebase from online course.</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End of Section One -->
+		<!-- End of About-me -->
 
-		<!-- Section Two -->
-		<section class="section-2">
+		<!-- Section Education -->
+		<section class="section-education" id="education">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h1 style="padding-bottom: 20px;">Web Development Tools</h1>
+						<h1>Education and Certification</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+					<div class="col-lg-12 text-center">
+						<h2>Education Qualification</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="table-responsive">
+							<table class="table table-striped table-bordered table-hover table-responsive">
+							    <thead>
+							      <tr>
+							        <th>Course</th>
+							        <th>Board/University</th>
+							        <th>Percentage</th>
+							        <th>Year of Passing</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr>
+							        <td>B.Tech(CSE)</td>
+							        <td>JNTUH University</td>
+							        <td>64%</td>
+							        <td>2017</td>
+							      </tr>
+							      <tr>
+							        <td>HSC</td>
+							        <td>WBCHSE</td>
+							        <td>54%</td>
+							        <td>2010</td>
+							      </tr>
+							      <tr>
+							        <td>SSC</td>
+							        <td>WBBSE</td>
+							        <td>77%</td>
+							        <td>2008</td>
+							      </tr>
+							    </tbody>
+							  </table>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Training and Certification</h2>
+					</div>
+				</div>
+					<div class="row flex">
+						<div class="col-lg-6">
+							<div class="panel panel-default">
+							    <div class="panel-heading text-center">Diploma In Conputer Application</div>
+							    <div class="panel-body">
+							    	<ul>
+							    		<li>Microsoft Office (MS Word, MS Excel, MS Power Point, MS Access.)</li>
+							    		<li>Command</li>
+							    		<li>Computer Hardware</li>
+							    		<li>OS installation</li>
+							    		<li>Software Installation</li>
+							    		<li>Photoshop (Photoshop Tools and Basic Image Editing)</li>
+							    		<li>HTML</li>
+							    		<li>CSS</li>
+							    		<li>Javascript</li>
+							    	</ul>
+							    </div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="panel panel-default">
+							    <div class="panel-heading text-center">Android App Development Workshop 2 Days</div>
+							    <div class="panel-body">
+							    	<ul>
+							    		<li>History of Android</li>
+							    		<li>Understand the Architechture of Android</li>
+							    		<li>Knowledge about  the Andriod SDK and JDK</li>
+							    		<li>Knowledge About Android App Development.</li>
+							    	</ul>
+							    </div>
+							    <div class="panel-heading text-center">Workshop on Robotices (2days)</div>
+							    <div class="panel-heading text-center">Industrial Exposure</div>
+							    <div class="panel-body">
+							    	Undergone a Industrial Visit at <b>Indian National Centre For Ocean Information Service.</b> INCOIS provide ocean information and advisory services to the society, industry, government and scientific community.
+							    </div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Academay Projects</h2>
+					</div>
+				</div>
+					<div class="row flex">
+						<div class="col-lg-6">
+							<h3>Title: Online Shopping Cart.</h3>
+							<h5>Language: HTML,CSS,Javascript,Java.</h5>
+							<h5>Database: Oracle 10g.</h5>
+							<h4>Description:</h4>
+							<p style="text-align: justify;">The Online Store allows visitors to your on-line shopping site to collect items in a virtual shopping cart. They may view the contents of their shopping cart at any time and may add or delete items at will. The Online Store automatically calculates the subtotal, sales tax, shipping charges, and grand total. When a visitor decides to check-out, the order information including the buyer's name, address and billing instruction is e-mailed to your order department and a receipt is sent to the shopper.</p>
+							<h5>Team Size: 4</h5>
+							<h5>Role: Design Customer module and Employee module, Software Environment Setup,Coding 2 Mudule,Execution.</h5>
+						</div>
+						<div class="col-lg-6">
+							<h3>Title: Towards Acheiving Data Security With Cloud Computing Aaoptation Framework.</h3>
+							<h5>Language: JAVA</h5>
+							<h5>Database: Oracle 10g.</h5>
+							<h4>Description:</h4>
+							<p style="text-align: justify;">The main objective of this project is to improve security on cloud data. CCAF multi-layered security can protect data in real-time and it has three layers of security:<br/> 1) firewall and access control; <br/>2) identity management and intrusion prevention and <br/> 3) convergent encryption.</p>
+							<h5>Team Size: 4</h5>
+							<h5>Role: Design Customer module and Employee module, Software Environment Setup,Coding 2 Mudule,Execution.</h5>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- End of section Education -->
+
+		<!-- Section TechSkill -->
+		<section class="section-tech-skill" id="techskill">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h1 style="padding-bottom: 20px;" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Web Development Tools</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-offset="250">
 							<img src="assets/images/service/service-01.jpg" alt="service-01">
 							<div class="caption text-center">
 								<div class="progress">
@@ -124,8 +206,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 							<img src="assets/images/service/service-02.jpg" alt="service-02">
 							<div class="caption text-center">
 								<div class="progress">
@@ -137,8 +219,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 							<img src="assets/images/service/service-03.jpg" alt="service-03">
 							<div class="caption text-center">
 								<div class="progress">
@@ -150,10 +232,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 							<img src="assets/images/service/service-04.jpg" alt="service-04">
 							<div class="caption text-center">
 								<div class="progress">
@@ -165,8 +245,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="flip-left" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="800">
 							<img src="assets/images/service/service-05.jpg" alt="service-05">
 							<div class="caption text-center">
 								<div class="progress">
@@ -178,8 +259,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="thumbnail">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="flip-left" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 							<img src="assets/images/service/service-06.jpg" alt="service-06">
 							<div class="caption text-center">
 								<div class="progress">
@@ -191,28 +272,255 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="flip-left" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-09.jpg" alt="service-09">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar7" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:65%">
+								    65%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="flip-left" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-11.jpg" alt="service-11">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar8" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    70%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="zoom-in-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-12.jpg" alt="service-12">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar9" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    80%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="zoom-in-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1100">
+							<img src="assets/images/service/service-15.jpg" alt="service-15">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar10" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    50
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="zoom-in-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+							<img src="assets/images/service/service-13.jpg" alt="service-13">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar11" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:55%">
+								    55%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="zoom-in-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1300">
+							<img src="assets/images/service/service-10.jpg" alt="service-10">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar6" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    40%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-14.jpg" alt="service-14">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar12" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    70%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-07.jpg" alt="service-07">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar13" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    50
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-08.jpg" alt="service-08">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar6" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    50%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="thumbnail" data-aos="fade-up" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+							<img src="assets/images/service/service-17.jpg" alt="service-17">
+							<div class="caption text-center">
+								<div class="progress">
+								  <div class="progress-bar tm-bar14" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    40%
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End of Section Two -->
+		<!-- End of TechSkill -->
 
+
+		<!-- Section Project -->
+		<section class="section-project" id="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h1>Projects</h1>
+					</div>
+				</div>
+
+				<div class="container-pro">
+					<div class="item">
+						<h3>ACE Cricket</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,and UIKIT2 Framework.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/ace/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>Anu Hospital</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,Bootstrap3 Framework and some PHP basic.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/anuhospital/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>Finanomices</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,Uikit2 Framework and some PHP basic.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/finanomics/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+				</div>
+				<div class="container-pro">
+					<div class="item">
+						<h3>Prime Pack Industries</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,and Bootstrap3 Framework.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/primepackindustries/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>Makuta Developers</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,Bootstrap3 Framework and some PHP basic.This website is fully Responsive.</p>
+						<a href="http://www.makutadevelopers.com/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>Kbpmpl</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,Uikit2 Framework and some PHP basic.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/kbpmpl/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+				</div>
+				<div class="container-pro">
+					<div class="item">
+						<h3>NB Science College</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY,and Bootstrap3 Framework.This website is fully Responsive.</p>
+						<a href="http://www.illusionzmedia.com/nbscience/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>wordpress</h3>
+						<p>This project build with Wordpress(CMS).</p>
+						<a href="http://www.illusionzmedia.com/" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+					<div class="item">
+						<h3>My Profile</h3>
+						<p>This project build with HTML,CSS,JAVASCRIPT,JQUERY and Bootstrap3 Framework.This website is fully Responsive.</p>
+						<a href="" target="_blank" class="btn btn-success">View Demo</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Projects -->
+
+		<!-- Contact Section -->
+		<section class="section-contact" id="contact">
+		<div class="row">
+			<h1>Contact Us</h1>
+			<div class="col-lg-6 text-center">
+				<h3>Postal Address:</h3>
+				<address>
+					<i class="fas fa-map-marker"></i>
+					Vill - Jashahari, P.O - Mallickpur,<br>
+					Dist - Birbhum, PIN - 731224,<br>
+					Rampurhat,<br>West Bengal,INDIA.<br><br>
+					Contact:<br> <i class="fas fa-mobile-alt"></i> +91 9933999924<br>
+									 		 <i class="fas fa-mobile-alt"></i> +91 9032626151<br><br>
+					Email: ashifahammed8@gmail.com<br>
+					GitHub:<a href="https://github.com/ashifahammed8" target="_blank"> /github.com/ashifahammed8</a>
+				</address>
+				<div class="social-media">
+					<i class="fab fa-facebook sicon1 fa-2x"></i>
+					<i class="fab fa-google-plus-square sicon2 fa-2x"></i>
+					<i class="fab fa-linkedin sicon3 fa-2x"></i>
+					<i class="fab fa-youtube sicon4 fa-2x"></i>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<form class="form-horizontal" action="">
+				  <div class="form-group">
+				    <label for="name">Name:</label>
+				    <input type="text" class="form-control" id="name" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email:</label>
+				    <input type="email" class="form-control" id="email" required>
+				  </div>
+					<div class="form-group">
+				    <label for="email">Message:</label>
+						<textarea class="form-control" name="name" rows="8" required></textarea>
+					</div>
+				  <button type="submit" class="btn btn-success" id="subbtn">Submit</button>
+				</form>
+			</div>
+		</div>
+		</section>
+		<!-- End of Contact Section -->
 
 
 		<!-- Main Footer -->
 		<footer class="main-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<h2 style="color: #fff;">Part 1</h2>
-					</div>
-					<div class="col-md-4 text-center">
-						<h2 style="color: #fff;">Part 1</h2>
-					</div>
-					<div class="col-md-4 text-center">
-						<h2 style="color: #fff;">Part 1</h2>
-					</div>
-				</div>
-			</div>
 			<div class="row">
 					<div class="col-md-12 text-center">
 						<h5 style="color: #fff;">&copy Copyright. Ahammed All Reserved.</h5>
@@ -220,12 +528,59 @@
 				</div>
 		</footer>
 		<!-- End of Main Footer -->
-		                
 
 
-	
+
+
 
 	<script src="assets/jquery/jquery.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.js"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+	<script>
+	   AOS.init();
+	</script>
+
+	<script>
+			// Select all links with hashes
+			$('a[href*="#"]')
+			  // Remove links that don't actually link to anything
+			  .not('[href="#"]')
+			  .not('[href="#0"]')
+			  .click(function(event) {
+			    // On-page links
+			    if (
+			      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+			      &&
+			      location.hostname == this.hostname
+			    ) {
+			      // Figure out element to scroll to
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			      // Does a scroll target exist?
+			      if (target.length) {
+			        // Only prevent default if animation is actually gonna happen
+			        event.preventDefault();
+			        $('html, body').animate({
+			          scrollTop: target.offset().top
+			        }, 1500, function() {
+			          // Callback after animation
+			          // Must change focus!
+			          var $target = $(target);
+			          $target.focus();
+			          if ($target.is(":focus")) { // Checking if the target was focused
+			            return false;
+			          } else {
+			            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+			            $target.focus(); // Set focus again
+			          };
+			        });
+			      }
+			    }
+			  });
+		</script>
+
+
 </body>
 </html>
